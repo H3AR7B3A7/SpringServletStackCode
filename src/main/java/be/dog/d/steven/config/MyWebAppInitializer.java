@@ -1,4 +1,4 @@
-package be.dog.d.steven;
+package be.dog.d.steven.config;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;

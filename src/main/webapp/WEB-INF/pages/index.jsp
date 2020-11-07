@@ -1,9 +1,8 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <head>
-    <title>Spring Web Application (Code-config version)</title>
+    <title><spring:message code="title"/></title>
+    <link href="../../resources/css/style.css" rel="stylesheet" />
 </head>
 <body>
-<h2>Hello World!</h2>
+<h2><spring:message code="content-header" arguments="world,beautiful"/></h2>
 </body>
-</html>

@@ -1,4 +1,4 @@
-package be.dog.d.steven;
+package be.dog.d.steven.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +13,7 @@ public class DispatcherConfig {
     public InternalResourceViewResolver viewResolver(){
 
         InternalResourceViewResolver vr = new InternalResourceViewResolver();
-        vr.setPrefix("/WEB-INF/");
+        vr.setPrefix("/WEB-INF/pages/");
         vr.setSuffix(".jsp");
 
         return vr;
